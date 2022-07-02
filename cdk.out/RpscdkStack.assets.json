@@ -1,0 +1,19 @@
+{
+  "version": "20.0.0",
+  "files": {
+    "a5b655ebafa575dbce4a4632a76b777abd2a2f668b8f9cd2839360b30bb160b2": {
+      "source": {
+        "path": "RpscdkStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "a5b655ebafa575dbce4a4632a76b777abd2a2f668b8f9cd2839360b30bb160b2.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
